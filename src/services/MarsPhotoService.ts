@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
-import DataCache from './dataCache'
-import Config from '../config/appConfig'
-import { MarsRoverPhoto } from '../objects/marsRoverResponse'
+import DataCache from '@src/services/dataCache'
+import Config from '@src/config/appConfig'
+import { MarsRoverPhoto } from '@src/objects/marsRoverResponse'
 
 // Gets photos from cache if exists,
 // otherwise fetches from nasa api

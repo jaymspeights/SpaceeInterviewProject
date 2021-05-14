@@ -1,6 +1,6 @@
 import { readFile } from 'fs/promises'
-import Config from '../config/appConfig'
-import { getPhotos } from './marsPhotoService'
+import Config from '@src/config/appConfig'
+import { getPhotos } from '@src/services/marsPhotoService'
 
 // Startup function
 // Loads some data from fs and uses it to pre-fetch some photos
