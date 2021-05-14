@@ -1,0 +1,22 @@
+{
+  "name": "spaceeinterviewassignment",
+  "version": "1.0.0",
+  "description": "Interview Assignment for Spacee",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node-fetch": "^2.5.10",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1"
+  }
+}
