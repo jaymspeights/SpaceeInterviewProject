@@ -12,7 +12,7 @@ app.use(express.static(path.join(process.cwd(), '/dist/frontend')))
 
 runStartup()
   .then(() => {
-    app.listen(process.env.PORT ?? 8080)
+    app.listen(process.env.PORT || 8080)
   })
   .catch(err => {
     console.error('Something fatal happened', err)

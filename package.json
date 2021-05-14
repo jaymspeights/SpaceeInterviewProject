@@ -4,11 +4,11 @@
   "description": "Interview Assignment for Spacee",
   "main": "dist/index.js",
   "engines": {
-    "node": ">=0.14"
+    "node": ">=14.0.0"
   },
   "scripts": {
     "start": "node .",
-    "build": "tsc && cd frontend && npm run build",
+    "build": "tsc && cd frontend && npm install &&  npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jay",

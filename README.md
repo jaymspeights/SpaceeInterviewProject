@@ -15,6 +15,10 @@ After downloading the source code, from the root directory:
 
 `npm start`
 
+Server will start on port 8080 or whatever $PORT is set to
+
+The web server should now be running. You can verify by navigating to localhost:8080 (or whatever port was set in the ENV)
+
 ## The future of Spacee Interview Application
 
 I plan on adding a front end for viewing the pictures and deploying it to Azure Cloud (AKS most likely). This work is estimated to be compled by 5/14/2021
