@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Interview Assignment for Spacee",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=0.14"
+  },
   "scripts": {
     "start": "node .",
     "build": "tsc",

@@ -3,6 +3,8 @@ This is the application is per (mostly) the basic requirements. It is a web serv
 
 ### Build
 
+Ensure that node version is >= 14
+
 After downloading the source code, from the root directory:
 
 `npm install`
