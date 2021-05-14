@@ -1,3 +1,4 @@
+/* eslint camelcase: 0 */
 export class MarsRoverPhoto {
     id: any;
     sol: any;

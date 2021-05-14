@@ -1,15 +1,15 @@
-import { runStartup } from './services/StartupService';
-import express from 'express';
+import { runStartup } from './services/startupService'
+import express from 'express'
 
-import api from './routes/api';
+import api from './routes/apiRoute'
 
-var app = express();
-app.use('/api', api);
+const app = express()
+app.use('/api', api)
 
 runStartup()
-.then(() => {
-    app.listen(8080);
-})
-.catch(err => {
-    console.error("Something fatal happened", err);
-});
+  .then(() => {
+    app.listen(8080)
+  })
+  .catch(err => {
+    console.error('Something fatal happened', err)
+  })
