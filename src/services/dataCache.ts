@@ -1,6 +1,6 @@
 import { writeFile, readFile } from 'fs/promises'
-import { MarsRoverPhoto } from '@src/objects/marsRoverResponse'
-import config from '@src/config/appConfig'
+import { MarsRoverPhoto } from '../objects/marsRoverResponse'
+import config from '../config/appConfig'
 import { mkdirSync } from 'fs'
 
 class DataCacheSingleton {

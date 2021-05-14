@@ -1,7 +1,7 @@
-import { runStartup } from '@src/services/startupService'
+import { runStartup } from './services/startupService'
 import express from 'express'
 
-import api from '@src/routes/apiRoute'
+import api from './routes/apiRoute'
 
 const app = express()
 app.use('/api', api)
