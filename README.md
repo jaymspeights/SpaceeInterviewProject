@@ -1,5 +1,13 @@
-# Spacee Interview Application
-This is the application is per (mostly) the basic requirements. It is a web server which on startup read from dates.txt from the local filesystem, parses a list of dates contained in the file, fetches data from the NASA Mars Rover Photos API, and saves it to the local filesystem. Afterwards, it begins responding to HTTP GET requests on the path /api/photos?date=\<earth-date\>. The server will look to the downloaded files for the corresponding date photos. If found, it will return them. Otherwise, it will fetch the new photos from the api, save them and then return to the client.
+# Spacee Interview Project
+A web app that lets you look at cool Mars Rover pictures.
+
+The API exposes an angular web page at GET /
+
+And also access to photos at GET /api/photos?date=\<earth-date\>
+
+The photos come from the NASA Mars Rover API and are cached by the backnd server.
+
+To see an example, the app is currently hosted in Azure [here](http://104.45.185.62:8080/).
 
 ### Build
 
@@ -17,11 +25,7 @@ After downloading the source code, from the root directory:
 
 Server will start on port 8080 or whatever $PORT is set to
 
-The web server should now be running. You can verify by navigating to localhost:8080 (or whatever port was set in the ENV)
-
-## The future of Spacee Interview Application
-
-I plan on adding a front end for viewing the pictures and deploying it to Azure Cloud (AKS most likely). This work is estimated to be compled by 5/14/2021
+The web server should now be running. You can verify by navigating to localhost:8080 (or whatever port was set in the ENV) in a web browser.
 
 ## Contribution Guidelines
 
